@@ -2,7 +2,7 @@
 %% Wade Bonkowski - 03/13/2017
 
 -module(functions).
--compile(export_all). %% Replace with export() later.
+-export([head/1, second/1, same/2, valid_time/1]).
 
 %% Returnt the head of a list.
 head([H|_]) -> H.
