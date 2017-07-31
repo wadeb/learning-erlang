@@ -1,4 +1,4 @@
-%% Module for learning and experimenting with Erlan Guard Patterns.
+%% Module for learning and experimenting with Erlang Guard Patterns.
 %% Wade Bonkowski - 03/15/2017
 
 -module(what_the_if).
