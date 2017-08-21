@@ -9,7 +9,7 @@ rpn(L) when is_list(L) ->
 	[Res] = lists:foldl(fun rpn/2, [], string:tokens(L, " ")),
 	Res.
 
-%% Main functiont that actually performs the recursion.
+%% Main function that actually performs the recursion.
 %% Can also write sum and prod in terms of rpn()/2 itself.
 rpn("+", [N1, N2|S]) -> [N2 + N1|S];
 rpn("-", [N1, N2|S]) -> [N2 - N1|S];
