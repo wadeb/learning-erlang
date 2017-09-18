@@ -54,7 +54,7 @@ even([_|T], Acc) ->
 	even(T, Acc).
 
 %% This is weird function to write...
-%% Only kee men that are older than 60.
+%% Only keep men that are older than 60.
 old_men(L) -> lists:reverse(old_men(L, [])).
 
 old_men([], Acc) -> Acc;
